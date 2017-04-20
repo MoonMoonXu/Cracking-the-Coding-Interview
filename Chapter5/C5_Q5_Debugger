@@ -1,0 +1,16 @@
+
+public class C5_Q5_Debugger 
+{
+	//n & (n - 1) == 0 is equal to
+	public static boolean isPowerOfTwo(int n)
+	{
+		return (n & (n - 1)) == 0;
+	}
+	
+	public static void main(String[] args)
+	{
+		int n = 256;
+		if(isPowerOfTwo(n)) System.out.println("yes");
+		else System.out.println("no");
+	}
+}
